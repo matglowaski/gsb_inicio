@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>GSB - Apostas Esportivas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #249356;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    header {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .jogos {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+      margin-bottom: 40px;
+    }
+
+    .jogo {
+      width: 25%;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .jogo h3 {
+      margin-top: 0;
+    }
+
+    .noticia {
+  width: 90%;
+  max-width: 500px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  font-size: 0.95rem;
+}
+
+.noticia img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover; 
+}
+
+    .noticia .conteudo {
+      padding: 15px;
+    }
+
+    .noticia .conteudo h2 {
+      margin-top: 0;
+    }
+
+    @media (max-width: 800px) {
+      .jogos {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .jogo {
+        width: 90%;
+        margin-bottom: 20px;
+      }
+
+      .noticia {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Bem-vindo à GSB</header>
+
+  <div class="jogos">
+    <div class="jogo">
+      <h3>Hoje: Flamengo x Palmeiras</h3>
+      <p>Horário: 21:00<br>Estádio: Maracanã<br>Cotações: Fla 1.9 | Empate 3.2 | Pal 2.5</p>
+    </div>
+
+    <div class="jogo">
+      <h3>Hoje: Grêmio x Inter</h3>
+      <p>Horário: 16:00<br>Estádio: Arena do Grêmio<br>Cotações: Gre 2.1 | Empate 3.0 | Int 2.7</p>
+    </div>
+  </div>
+
+  <div class="noticia"
+>
+    <img src="https://assets.goal.com/images/v3/bltdc6af12f8229a502/Ancelotti%20should%20answer%20Brazil's%20call.jpg" alt="Ancelotti convocado" lenght="200" height="250">
+    <div class="conteudo">
+      <h2>Ancelotti deve assumir Seleção Brasileira</h2>
+      <p>CBF confirma conversas avançadas com o técnico do Real Madrid. Ancelotti deve comandar o Brasil em amistoso contra a Espanha, trazendo sua experiência europeia para liderar a nova geração canarinha.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
